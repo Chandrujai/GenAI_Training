@@ -17,16 +17,15 @@ CITY = "Bengaluru"
 
 # DESKTOP = Path.home() / "Desktop"
 
-# EXCEL_FILE = DESKTOP / "weather_history.xlsx"
+# EXCEL_FILE = DESKTOP / "weather_history_new.xlsx"
 # DEBUG_FILE = DESKTOP / "accuweather_debug.txt"
 
-EXCEL_FILE = "weather_history.xlsx"
+EXCEL_FILE = "weather_history_new.xlsx"
 EXCEL_FILE = Path(EXCEL_FILE)
 if EXCEL_FILE.exists():
     workbook = load_workbook(EXCEL_FILE)
 DEBUG_FILE = Path("accuweather_debug.txt")
-if DEBUG_FILE.exists():
-    workbook = load_workbook(DEBUG_FILE)
+
 # =========================================================
 # OPEN CHROME
 # =========================================================
@@ -85,7 +84,7 @@ time.sleep(1)
 # This coordinate may need adjustment depending
 # on your screen.
 
-pyautogui.click(500, 100)
+#pyautogui.click(500, 200)
 
 time.sleep(1)
 

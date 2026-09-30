@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Playwright browser/session data
+whatsapp_profile/
+
+# Generated screenshots
+screenshots/
+
+# weather data
+weather_history_new.xlsx
+
+# Generated reports
+reports/
+
+# Local configuration
+.env
+
+# Excel files containing customer data
+contacts.xlsx
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
